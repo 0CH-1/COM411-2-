@@ -39,3 +39,12 @@ height=float(input("What's your height? (in metres)"))
 weight=int(input("What's your weight? (in kilogram)"))
 BMI=weight/(height*height)
 print(f"Your BMI is {BMI}")
+
+
+#Checking state in game
+Lives=int(input("How many lives do you have?"))
+energy=int(input("How many energy do you have?"))
+shield=int(input("How many shield do you have?"))
+print(f"Lives: {'♥'*Lives}")
+print(f"Energy: {'♦'*energy}")
+print(f"Shield: {'♦'*shield}")
