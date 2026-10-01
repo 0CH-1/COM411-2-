@@ -31,3 +31,11 @@ print("##########")
 print("#  o  o  #")
 print("#  ----  #")
 print("##########")
+
+#BMI calculator
+name=input("What's your name?")
+age=int(input("What's your age? (in years)"))
+height=float(input("What's your height? (in metres)"))
+weight=int(input("What's your weight? (in kilogram)"))
+BMI=weight/(height*height)
+print(f"Your BMI is {BMI}")
